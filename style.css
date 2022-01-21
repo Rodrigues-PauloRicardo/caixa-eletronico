@@ -1,0 +1,66 @@
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    margin-top: 30px;
+    width: 800px;
+}
+.escolhaCentral{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.titleA{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #fe0000;;
+    font-size: 1.7rem;
+    color:#fff;
+
+}
+.boxPrincipal{
+    border: 1px solid #fe0000;
+    background-color:  #fe0000;
+    height: 450px;
+}.title{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff;
+    font-size: 45px;
+}
+.boxeEscolhas{
+    
+    height: 380px;
+    background-color: rgb(223, 221, 217);
+}
+.escolhasLeft{
+    width: 150px;
+    display: flex;
+    flex-direction: column ;
+}
+.telaCentral{
+    background-color: aliceblue;
+    width: 300px;
+    height: 200px;
+}
+.escolhasRight{
+    width: 150px;
+    display: flex;
+    flex-direction: column ;
+}
+input{
+    background-color:  #fe0000;
+    color: #fff;
+    height: 7vh;
+    border-radius: 3px;
+    margin-top: 3.3rem;
+}
