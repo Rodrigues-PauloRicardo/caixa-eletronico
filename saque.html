@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>caixa-eletrônico</title>
+    <title>Document</title>
 </head>
 <body>
     <form>
@@ -20,19 +20,17 @@
                     <div class="boxeEscolhas">
                         <div class="escolhaCentral">
                         <div class="escolhasLeft">
-                            <input type="button" value="SALDO" class="botao"    onclick="saldoA()" id="saldo"> 
-
-                            <input type="button" value="SAQUE" class="botao"    onclick="window.location = '/saque.html';" id="saque">
-
-                            <input type="button" value="DEPÓSITO" class="botao"    onclick="depositoA()" id="deposito">
+                            <input type="button" value="20,00" class="botao"    onclick="saldoA()" id="saldo"> 
+                            <input type="button" value="50,00" class="botao"    onclick="saqueA()" id="saque">
+                            <input type="button" value="100,00" class="botao"    onclick="depositoA()" id="deposito">
                         </div>                    
                         <div class="telaCentral">
                             <div id="res">Aguarde......</div>
                         </div>
                         <div class="escolhasRight">
-                            <input type="button" value="PIX" class="botao" onclick="depositoA()" id="pixA"> 
-                        <input type="button" value="SAIR" class="botao"     onclick="sair()" id="sair"> 
-                        <input type="button" value="SAIR" class="botao"     onclick="sair()" id="sair"> 
+                            <input type="button" value="200,00" class="botao" onclick="depositoA()" id="pixA"> 
+                        <input type="button" value="500,00" class="botao"     onclick="sair()" id="sair"> 
+                        <input type="button" value="1.000,00" class="botao"     onclick="sair()" id="sair"> 
                         </div>                    
                     </div>
                </div>
@@ -41,8 +39,6 @@
         </div>
         
     </form>
-    
-    <script src="caixa.js"></script>
     
 </body>
 </html>
