@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,22 +15,26 @@
                     <h1>Saque Digital - 24 horas</h1></div>
                 <div class="boxPrincipal">
                     <div class="title">
-                        <h6>Selecione a opção desejada</h6>
+                        <h6>Selecione o Valor</h6>
                     </div>
                     <div class="boxeEscolhas">
                         <div class="escolhaCentral">
                         <div class="escolhasLeft">
-                            <input type="button" value="20,00" class="botao"    onclick="saldoA()" id="saldo"> 
-                            <input type="button" value="50,00" class="botao"    onclick="saqueA()" id="saque">
+
+                            <input type="button" value="20,00" class="botao"    onclick="saqueOpcao1()" id="saque20"> 
+
+                            <input type="button" value="50,00" class="botao"    onclick="saqueA()" id="saque20">
                             <input type="button" value="100,00" class="botao"    onclick="depositoA()" id="deposito">
                         </div>                    
                         <div class="telaCentral">
-                            <div id="res">Aguarde......</div>
+                            <div id="res">Aguardando sua escolha...</div>
+                            <div id="res1"></div>
+                            <div id="res2"></div>
                         </div>
                         <div class="escolhasRight">
                             <input type="button" value="200,00" class="botao" onclick="depositoA()" id="pixA"> 
                         <input type="button" value="500,00" class="botao"     onclick="sair()" id="sair"> 
-                        <input type="button" value="1.000,00" class="botao"     onclick="sair()" id="sair"> 
+                        <input type="button" value="VOLTAR" class="botao"     onclick="window.location = '/index.html';" id="voltar"> 
                         </div>                    
                     </div>
                </div>
@@ -39,6 +43,7 @@
         </div>
         
     </form>
+    <script src="caixa.js"></script>
     
 </body>
 </html>

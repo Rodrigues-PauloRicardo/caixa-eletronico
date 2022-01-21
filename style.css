@@ -6,12 +6,12 @@ form{
 
 .container{
     margin-top: 30px;
-    width: 800px;
+    width: 600px;
 }
 .escolhaCentral{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     
 }
 
@@ -25,10 +25,10 @@ form{
     color:#fff;
 
 }
-.boxPrincipal{
-    border: 1px solid #fe0000;
+.boxPrincipal{  
+    padding: 5px;  
     background-color:  #fe0000;
-    height: 450px;
+    
 }.title{
     height: 40px;
     display: flex;
@@ -37,9 +37,8 @@ form{
     background-color: #ffff;
     font-size: 45px;
 }
-.boxeEscolhas{
-    
-    height: 380px;
+.boxeEscolhas{  
+    padding: 10px;  
     background-color: rgb(223, 221, 217);
 }
 .escolhasLeft{
@@ -48,8 +47,11 @@ form{
     flex-direction: column ;
 }
 .telaCentral{
+    text-align: center;
+    padding: 10px;
+    border-radius: 10%;
     background-color: aliceblue;
-    width: 300px;
+    width: 200px;
     height: 200px;
 }
 .escolhasRight{
@@ -57,10 +59,20 @@ form{
     display: flex;
     flex-direction: column ;
 }
+
 input{
+    margin: 20px;
     background-color:  #fe0000;
     color: #fff;
-    height: 7vh;
+    height: 6vh;
     border-radius: 3px;
-    margin-top: 3.3rem;
+}
+#res{
+    margin-top: 15px;
+}#res1{
+    margin-top: 60px;
+}
+#res2{
+    background-color: yellow;
+    margin-top: 60px;
 }
