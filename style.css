@@ -67,6 +67,9 @@ input{
     height: 6vh;
     border-radius: 3px;
 }
+input:hover{
+    box-shadow: inset 200px 0 0 #00000055;
+}
 #res{
     margin-top: 15px;
 }#res1{
@@ -75,4 +78,13 @@ input{
 #res2{
     background-color: yellow;
     margin-top: 60px;
+}
+
+.telaCentralDeposito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
 }
