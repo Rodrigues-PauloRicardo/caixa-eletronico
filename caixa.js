@@ -75,19 +75,17 @@ var opcao2 = document.getElementById('deposito');
 function depositoA(){  
 }
 
+
 function confirmarDeposito(){ 
-    var input = document.querySelector("#inputDeposito");
-    var texto = input.value;
-    if(texto === ''){
-        alert ('Preencha o valor a ser depositado')
-    }else{
-
-     
-    alert ('Seu depósito foi de é R$ ' + texto+saldo);
+    //var texto = parseInt(input.value);
     
+    if(document.getElementById("inputDeposito").value !== ""){
+        alert ('sdwwddwd');
+                    
+    }if(document.getElementById("inputDeposito").value === ""){
+        alert ("Por favor, preencha os campos corretamente.");
+        
+       
+       
+    }
 }
-}
-
-
-
-
