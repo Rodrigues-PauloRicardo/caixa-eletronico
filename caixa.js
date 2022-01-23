@@ -2,8 +2,6 @@
 var saldo = 2000;
 var sairA = '';
 
-
-
 // SALDO--------------------------------------------------------------
 function saldoA(){  
     document.getElementById('res').innerHTML = ('Seu saldo é R$ ' + saldo.toFixed(2))
@@ -82,11 +80,29 @@ function confirmarDeposito(){
     if(document.getElementById("inputDeposito").value === ""){
         document.getElementById('res').innerHTML = ('ATENÇÃO!!! Preencha o valor a ser depositado.');                
           }else{
-            inputDeposito.style.display="none" ; 
-            document.getElementById('botaoConfDeposito').style.display = 'none';           
-            document.getElementById('res').innerHTML = ('VALOR DEPÓSITO R$ '+texto + ' - SALDO ATUAL R$ ' +(texto+saldo));          
-   
+            inputDeposito.style.display="none"; 
+            botaoConfDeposito.style.display="none";           
+            document.getElementById('res').innerHTML = ('VALOR DEPÓSITO R$ '+texto.toFixed(2) + ' - SALDO ATUAL R$ ' +(texto+saldo).toFixed(2));         
 }
 }
+// pix--------------------------------------------------------------
+function confirmarPix(){
+    var campoPix = document.getElementById("campoIdPix");
+    var campoValor = document.getElementById('campoValorPix');
+    valorInt = parseInt(campoValor.value);
+
+    if(campoPix.value <=0 || campoValor.value <=0){  
+    document.getElementById('res').innerHTML = ('ATENÇÃO, PREENCHA TODOS OS CAMPOS');
+}else{
+    campoIdPix.style.display="none";
+    campoValorPix.style.display="none";
+    botaoConfPix.style.display="none";
+    document.getElementById('res').innerHTML = ('SEU PIX DE R$ '+ valorInt.toFixed(2) +' FOI ENVIADO COM SUCESSO!');
+}
+}
+// RECARGA--------------------------------------------------------------
+
+
+
     
 

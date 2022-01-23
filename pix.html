@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Tela Depósito</title>
+    <title>Tela Pix</title>
 </head>
 <body>
     <form>
@@ -15,7 +15,7 @@
                     <h1>Saque Digital - 24 horas</h1></div>
                 <div class="boxPrincipal">
                     <div class="title">
-                        <h6>Selecione o Valor</h6>
+                        <h6>* SEU PIX *</h6>
                     </div>
                     <div class="boxeEscolhas">
                         <div class="escolhaCentral">
@@ -23,16 +23,18 @@
                             
                         </div>                    
                         <div class="telaCentralDeposito">
-                            <div id="res">Digite o valor...</div>
+                            <div id="res">INFORME CHAVE PIX E DEPOIS O VALOR</div>
 
                             <form action="">
-                            <input type="number" id="inputDeposito" required=''>
-                            <input type="button" value="ENVIAR" onclick="confirmarDeposito()" id="botaoConfDeposito">
+                                
+                            <input type="" id="campoIdPix" required='' placeholder="Chave Pix"> 
+                            <input type="number" id="campoValorPix" required='' placeholder="Valor">
+
+                            <input type="button" value="ENVIAR" onclick="confirmarPix()" id="botaoConfPix">
                             </form>      
 
                             <input type="button" value="VOLTAR" class="botao"     onclick="window.location = '/index.html';" id="voltar">                             
-                        </div>               
-
+                        </div>             
                                            
                     </div>
                </div>
