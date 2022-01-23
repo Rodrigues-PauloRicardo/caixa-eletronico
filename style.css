@@ -3,12 +3,13 @@ form{
     flex-direction: column;
     align-items: center;
 }
-
 .container{
     margin-top: 30px;
+    
     width: 600px;
 }
 .escolhaCentral{
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,6 +27,7 @@ form{
 
 }
 .boxPrincipal{  
+    height: 450px;
     padding: 5px;  
     background-color:  #fe0000;
     
@@ -38,6 +40,7 @@ form{
     font-size: 45px;
 }
 .boxeEscolhas{  
+    height: 390px;
     padding: 10px;  
     background-color: rgb(223, 221, 217);
 }
@@ -84,7 +87,10 @@ input:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
 
-
-
+input[type=number]::-webkit-inner-spin-button, /* RETIRAR SETAS CAMPOS INPUT NUMBER*/
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
