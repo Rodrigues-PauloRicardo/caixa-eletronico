@@ -1,6 +1,5 @@
 
 var saldo = 2000;
-var sairA = '';
 
 // SALDO--------------------------------------------------------------
 function saldoA(){  
@@ -97,7 +96,7 @@ function confirmarPix(){
     campoIdPix.style.display="none";
     campoValorPix.style.display="none";
     botaoConfPix.style.display="none";
-    document.getElementById('res').innerHTML = ('SEU PIX DE R$ '+ valorInt.toFixed(2) +' FOI ENVIADO COM SUCESSO!');
+    document.getElementById('res').innerHTML = ('SEU PIX DE R$ '+ valorInt.toFixed(2) +' FOI ENVIADO COM SUCESSO!' );
 }
 }
 // RECARGA--------------------------------------------------------------
