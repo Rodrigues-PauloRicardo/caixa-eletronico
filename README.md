@@ -15,7 +15,7 @@ Tabela de conteúdos
    * 
 <!--te-->
 
-[![Netlify Status]
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bdf1eddc-4978-40d4-adf0-7def1cec9a18/deploy-status)](https://app.netlify.com/sites/caixa24horas/deploys)
 
 ### 🛠 Tecnologias
 HTML, CSS e Javascript
